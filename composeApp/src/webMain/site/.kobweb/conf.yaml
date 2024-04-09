@@ -1,0 +1,14 @@
+site:
+  title: "KmpApp2"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/kmpapp2.js"
+      api: "build/libs/kmpapp2.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/kmpapp2.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
